@@ -1,0 +1,28 @@
+{
+  "name": "genome_api_demo",
+  "version": "1.0.0",
+  "description": "Genome GraphQL API demo for Mark Heinrich and Shibu Yooseph.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "genome_api_demo"
+  },
+  "keywords": [
+    "graphql",
+    "gene",
+    "api",
+    "demo"
+  ],
+  "author": "Arjun Pherwani",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.6.1",
+    "nodemon": "^2.0.13"
+  }
+}
